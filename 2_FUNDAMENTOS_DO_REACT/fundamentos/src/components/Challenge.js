@@ -3,13 +3,12 @@ const Challenge = () => {
 
     const number1 = 2;
     const number2 = 4;
-    console.log(number1, number2)
 
     return (
         <div>
-            <div>
-                <button onClick={() => console.log(number1 + number2)}>click para somar</button>
-            </div>
+           <p>number1: {number1}</p>
+           <p>number2: {number2}</p>
+           <button onClick={() => console.log(number1 + number2)}>Click pra somar</button>
         </div>
     )
 }
